@@ -1,0 +1,144 @@
+body * {
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+header {
+    color: #ffffff;
+    height: 500px;
+    background-image: url(./archives/capa-tipos-de-rolamento.jpg);
+    background-blend-mode: multiply;
+    background-color: rgba(0, 30, 96, 0.575);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    text-transform: uppercase;
+    background-color: rgb(0, 30, 96);
+    padding: 20px;
+    width: 400px;
+    font-weight: 500;
+}
+#page-title{
+    margin-top: 8%;
+}
+h2 {
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: rgb(0, 30, 96);
+    width: 500px;
+    color: #ffffff;
+    justify-content: right;
+    text-align: right;
+    font-weight: 500;
+}
+
+div {
+    //border: solid red 1px;
+    }
+ #logo-Rech {
+       padding: 20px;
+    }
+#bearings-tipe p {
+     color: rgb(112, 115, 114);
+     width: 420px;
+     font-size: 1.3em;
+     margin-left: 80px;
+     padding: 0;
+    }
+
+#Agulhas, #Autocompensadores, #Axiais, #Axiais-esferas-rolos, #Rolos-Cilindricos, #Fechamento-Rolamentos {
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    color: rgb(112, 115, 114);
+}
+#Fechamento-Rolamentos {
+    width: 650px;
+    padding: 50px;
+}
+#bearings-photos-01 {
+    display: flex;
+}
+#bearings-photos-02 {
+    display: flex;
+}
+#Send-Message {
+text-align: center;
+}
+#Send-Message span {
+    height: 25px;
+    width: 25px;
+     color: rgb(0, 30, 96);
+    margin: 20px;
+    }
+#Available-brands img {
+    width: 100%;
+}
+#Support-Price {
+    display: flex;
+    margin-right: 100px;
+    margin-left: 100px;
+    background-image: url(./archives/HEX.png) ;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 60%;
+    background-attachment: scroll;
+}
+#Support-Price h3 {
+    font-size: 2em;
+    color: rgb(0, 30, 96);
+    text-align: left;
+    padding: 100px;
+    font-weight: 500;
+}
+#Suporte {
+    width: 70%;
+    text-align: center;
+}
+#social-links img {
+    height: 40px;
+    padding-left: 20px ;
+    border-left: 1px solid #ffffff;
+}
+#Forms  {
+        background-color: #ffffff;
+}
+#Forms div {
+    margin-bottom: 10px;
+}
+#Forms button{
+    background-color: #2d8a21;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    border: solid 0px;
+    border-radius: 5px;
+    padding: 7px 12px;
+}
+fieldset * {
+text-align: left;
+font-size: 0.95em;
+
+
+}
+footer * {
+    background-color:rgb(0, 30, 96);
+    align-items: center;
+    justify-content: center;
+    display: flex;    
+    font-size: 24px;
+}
+a * {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    text-decoration: none;
+    color: rgb(0, 30, 96);
+    margin: 20px;
+}
+
