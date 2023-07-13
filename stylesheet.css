@@ -212,4 +212,13 @@ a * {
     color: rgb(0, 30, 96);
     margin: 20px;
 }
-
+#button-places{
+display: flex;
+justify-content: center;
+}
+#button-places button{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    border-color: solid #ffffff 1px;
+}
