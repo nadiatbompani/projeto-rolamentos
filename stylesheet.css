@@ -60,18 +60,18 @@ h2 {
     text-align: center;
     margin: 20px 50px;
     color: rgb(112, 115, 114);
+    width: 400px;
+    
 }
 #Fechamento-Rolamentos {
-    width: 650px;
+    width: 250px;
     padding: 50px;
 }
 #bearings-photos-01 {
     justify-content: center;
     display: flex;
-}
-#bearings-photos-02 {
-    justify-content: center;
-    display: flex;
+    flex-wrap: wrap;
+   
 }
 #Send-Message {
 text-align: center;
@@ -209,7 +209,7 @@ a * {
     color: rgb(0, 30, 96);
     margin: 20px;
 }
-#button-places{
+/*#button-places{
 display: flex;
 justify-content: center;
 padding: 3px;
@@ -233,12 +233,12 @@ margin-bottom: 10px;
     border-radius: 100%;
     background-color: #f8f8f8;
     border: solid rgb(209, 216, 214) 1px;
-    /*outline: 4px solid #4cef00;*/
-}
+    outline: 4px solid #4cef00;
+}*/
 
 #site {
     width: 960px;
-    margin: 20px auto 0;
+    margin: 20px auto;
 }
  
 #banner {
