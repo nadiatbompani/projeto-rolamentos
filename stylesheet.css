@@ -35,7 +35,7 @@ h2 {
     text-transform: uppercase;
     padding: 10px;
     background-color: rgb(0, 30, 96);
-    width: 500px;
+    width: 550px;
     color: #ffffff;
     justify-content: right;
     text-align: right;
@@ -58,7 +58,6 @@ h2 {
 #Agulhas, #Autocompensadores, #Axiais, #Axiais-esferas-rolos, #Rolos-Cilindricos, #Fechamento-Rolamentos {
     justify-content: center;
     text-align: center;
-    margin: 20px 50px;
     color: rgb(112, 115, 114);
     width: 400px;
     
@@ -68,7 +67,7 @@ h2 {
     padding: 50px;
 }
 #bearings-photos-01 {
-    justify-content: center;
+    justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
    
@@ -137,12 +136,14 @@ display: flex;
     background-attachment: scroll;
     justify-content: center;
     align-items: center;
+    gap:100px;
 }
 #Support-Price h3 {
     font-size: 2em;
     color: rgb(0, 30, 96);
     text-align: left;
     font-weight: 500;
+
 }
 #Suporte {
     width: 30%;
@@ -198,6 +199,7 @@ footer * {
     justify-content: center;
     display: flex;    
     font-size: 24px;
+    gap:25px;
 }
 a * {
     height: 25px;
@@ -207,7 +209,8 @@ a * {
     border-radius: 50%;
     text-decoration: none;
     color: rgb(0, 30, 96);
-    margin: 20px;
+    margin:20px auto;
+
 }
 /*#button-places{
 display: flex;
